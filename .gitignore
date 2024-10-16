@@ -1,0 +1,32 @@
+ 
+# Laravel - Ignore vendor directory
+/vendor
+
+# Node.js - Ignore node_modules directory
+/node_modules
+
+# Ignore Laravel's storage and cache directories
+/storage
+/bootstrap/cache
+
+# Ignore Laravel's public hot file
+/public/hot
+
+# Ignore public storage symlink
+/public/storage
+
+# Ignore environment file (contains sensitive information)
+/.env
+
+# Ignore compiled assets
+/build
+
+# Ignore local environment variables
+/.env.local
+/.env.development.local
+/.env.test.local
+
+# Ignore cache files
+/.cache
+npm-debug.log
+yarn-error.log
